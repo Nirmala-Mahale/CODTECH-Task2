@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#main-content {
+    margin-top: 20px;
+}
+
+.blog-post {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+}
+
+.comment-section {
+    margin-top: 15px;
+}
+
+.comment-section input {
+    width: 80%;
+    padding: 5px;
+}
+
+.comment-section button {
+    width: 15%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.comment-list {
+    margin-top: 10px;
+}
+
+.comment-list li {
+    list-style-type: none;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button.delete {
+    background-color: red;
+    color: white;
+}
+
+button.edit {
+    background-color: orange;
+    color: white;
+}
